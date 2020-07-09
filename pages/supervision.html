@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Experienced empathetic counselor assisting with a range of mental health and adjustment concerns. Certified and experienced with EAGALA, cognitive behavior therapy, acceptance and commitment therapy, grief counseling and tobacco treatment counseling. Equine-assisted psychotherapy services are also evidence-based for grief, growth and learning, and trauma therapy. Passionate about helping other helping professionals avoid burnout and practice self-care strategies.">
+   <meta name="keywords" content="depression, anxiety, mental health, wellness, self-care, therapy, counseling, coaching, transitions">
+   <link rel="icon" type="image/png" href="images/footerlogo.png">   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Merriweather:400,700&display=swap" rel="stylesheet">
+   <title>Jordan Cusumano, LMSW</title>
+</head>
+
+<! Web Page>
+<body class="has-navbar-fixed-top">
+
+<! Navigation Menu>
+   <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+         <a class="navbar-item" href="../index.html">
+            <p><strong>Jordan Cusumano, LMSW</strong></p>
+         </a>
+         <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+         </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+         <div class="navbar-start">
+            <a class="navbar-item"  href="../pages/about.html">
+               About
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+               <a class="navbar-link">
+                  Equine-Assisted Therapy
+               </a>
+               <div class="navbar-dropdown">
+                  <a class="navbar-item" href="../pages/therapy.html">
+                     Equine-Assisted Therapy
+                  </a>
+                  <a class="navbar-item"  href="../pages/horses.html">
+                     Why horses?
+                  </a>
+                  <a class="navbar-item"  href="../pages/packages.html">
+                     Packages and Pricing
+                  </a>
+               </div>
+            </div>
+            <a class="navbar-item " href="../pages/contact.html">
+               Get In Touch
+            </a>        
+            <a class="navbar-item" href="../pages/supervision.html">
+               Licensed Supervision
+            </a>         
+            <a class="navbar-item" href="../pages/events.html">
+               Upcoming Events
+            </a>              
+         </div>
+         <div class="navbar-end">
+            <a class="navbar-item" href="https://www.facebook.com/pages/category/Medical---Health/Jordan-Cusumano-LMSW-LLC-105880287474729/" target="_blank">
+               <img src="../images/facebook.png" alt="facebook" width="24" height="24">
+            </a>
+            <a class="navbar-item" href="https://www.instagram.com/jordan_cusumano_lmsw_llc" target="_blank">
+               <img src="../images/instagram.png" alt="instagram" width="24" height="24">
+            </a>
+         </div>
+      </div>
+   </nav>
+
+<! Page Content>
+   <section class="section">
+      <div class="container">
+         <h1 class="title">
+            <p class="title is-1 has-text-centered">Licensure Supervision</p>
+         </h1>
+         <br>
+         <br>
+         <div class="content">
+            <p class="subtitle has-text-weight-semibold">Coming soon. Feel free to read on to learn more about Jordan’s experience.</p>
+            <p>I have been working as a Master's level social worker since 2014 after I finished my graduate degree in social work at the University of Michigan with a clinical focus on children and youth in families. After finishing my education I started my career working in hospice, providing support and resources to patients and their families in the Lansing area.</p>
+            <p>Beginning in 2015, I became the Program Coordinator for the Link Volunteer Navigator Program at St. Joseph Mercy Health System. The Link Volunteer Navigator Program trained volunteers to provide resources and support to oncology patients.</p>
+            <p>Most recently I work at St. Joseph Mercy Health System as a Nationally Certified Tobacco Treatment Specialist providing motivational interviewing support and counseling to oncology patients who are interested in quitting smoking. In this role I provide my team with clinical expertise as the only person with a clinical background. Each of my roles at St. Joseph Mercy have heavily involved program building, maintenance and sustainability.</p>
+            <p>In 2018 and 2019 I also taught BSW-level social work courses at Concordia University in Ann Arbor, Michigan. Finally, I have supervised BSW and MSW level social work interns over the years.</p>
+            <p>In 2019 I completed my certification in Core Supervision through the Michigan NASW chapter.</p>
+            <p>I am a firm believer in the importance of good, empowering and enthusiastic supervision throughout the continuum of your career as a social worker. I aim to provide this support to the social workers whom I supervise.</p>
+            <p>I specialize in providing supervision to social workers who are working in volunteer management, oncology, adjustment to illness, grief and loss, substance abuse (with clinical expertise in tobacco specifically), and less conventional social work roles, both micro and macro.</p>
+         </div>
+      </div>
+   </section>
+
+<! Footer>
+   <footer class="footer">
+      <div class="columns is-flex is-vcentered is-centered"> 
+         <div class="box has-background-white-bis is-shadowless" style="max-width: 300px">
+            <article class="media">
+               <div class="media-content">
+                  <figure class="image is-centered is-64x64">
+                     <img src="../images/footerlogo.png">
+                  </figure>
+               </div>
+            </article>
+         </div>
+      </div>
+      <div class="content has-text-centered" style="font-weight: 100; color: #99ccff; font-size: small">
+         <p style="margin-bottom: 0px">&copy;2020 Jordan Cusumano, LMSW</p>
+         <p>Howell, Michigan</p>
+      </div>
+   </footer>
+
+<! Responsive Navigation Menu Script>
+   <script>
+      document.addEventListener('DOMContentLoaded', () => {
+         // Get all "navbar-burger" elements
+         const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+         // Check if there are any navbar burgers
+         if ($navbarBurgers.length > 0) {
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+               el.addEventListener('click', () => {
+                  // Get the target from the "data-target" attribute
+                  const target = el.dataset.target;
+                  const $target = document.getElementById(target);
+                  // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                  el.classList.toggle('is-active');
+                  $target.classList.toggle('is-active');
+               });
+            });
+         }
+      });
+   </script>       
+</body>
+</html>

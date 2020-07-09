@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Experienced empathetic counselor assisting with a range of mental health and adjustment concerns. Certified and experienced with EAGALA, cognitive behavior therapy, acceptance and commitment therapy, grief counseling and tobacco treatment counseling. Equine-assisted psychotherapy services are also evidence-based for grief, growth and learning, and trauma therapy. Passionate about helping other helping professionals avoid burnout and practice self-care strategies.">
+   <meta name="keywords" content="depression, anxiety, mental health, wellness, self-care, therapy, counseling, coaching, transitions">
+   <link rel="icon" type="image/png" href="images/footerlogo.png">   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Merriweather:400,700&display=swap" rel="stylesheet">
+   <title>Jordan Cusumano, LMSW</title>
+</head>
+   
+<! Web Page>
+<body class="has-navbar-fixed-top">
+
+<! Navigation Menu>
+   <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+         <a class="navbar-item" href="../index.html">
+            <p><strong>Jordan Cusumano, LMSW</strong></p>
+         </a>
+         <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+         </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+         <div class="navbar-start">
+            <a class="navbar-item"  href="../pages/about.html">
+               About
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+               <a class="navbar-link">
+                  Equine-Assisted Therapy
+               </a>
+               <div class="navbar-dropdown">
+                  <a class="navbar-item" href="../pages/therapy.html">
+                     Equine-Assisted Therapy
+                  </a>
+                  <a class="navbar-item"  href="../pages/horses.html">
+                     Why horses?
+                  </a>
+                  <a class="navbar-item"  href="../pages/packages.html">
+                     Packages and Pricing
+                  </a>
+               </div>
+            </div>
+            <a class="navbar-item " href="../pages/contact.html">
+               Get In Touch
+            </a>
+            <a class="navbar-item" href="../pages/supervision.html">
+               Licensed Supervision
+            </a>
+            <a class="navbar-item" href="../pages/events.html">
+               Upcoming Events
+            </a>              
+         </div>
+         <div class="navbar-end">
+            <a class="navbar-item" href="https://www.facebook.com/pages/category/Medical---Health/Jordan-Cusumano-LMSW-LLC-105880287474729/" target="_blank">
+               <img src="../images/facebook.png" alt="facebook" width="24" height="24">
+            </a>
+            <a class="navbar-item" href="https://www.instagram.com/jordan_cusumano_lmsw_llc" target="_blank">
+               <img src="../images/instagram.png" alt="instagram" width="24" height="24">
+            </a> 
+         </div>
+      </div>
+   </nav>
+
+<! Page Content>
+   <section class="section">
+      <div class="container">
+         <h1 class="title">
+            <p class="title is-1 has-text-centered">Upcoming Events</p>
+         </h1>
+         <br>
+         <br>
+         <p class="subtitle has-text-weight-semibold">Check back for upcoming events.</p>
+         <br>
+         <br>
+         <br>
+      </div>
+   </section>
+
+<! Footer>
+   <footer class="footer">
+      <div class="columns is-flex is-vcentered is-centered"> 
+         <div class="box has-background-white-bis is-shadowless" style="max-width: 300px">
+            <article class="media">
+               <div class="media-content">
+                  <figure class="image is-centered is-64x64">
+                     <img src="../images/footerlogo.png">
+                  </figure>      
+               </div>
+            </article>
+         </div>
+      </div>
+      <div class="content has-text-centered" style="font-weight: 100; color: #99ccff; font-size: small">
+         <p style="margin-bottom: 0px">&copy;2020 Jordan Cusumano, LMSW</p>
+         <p>Howell, Michigan</p>
+      </div>
+   </footer>
+   
+<! Responsive Navigation Menu Script>
+   <script>
+      document.addEventListener('DOMContentLoaded', () => {
+         // Get all "navbar-burger" elements
+         const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+         // Check if there are any navbar burgers
+         if ($navbarBurgers.length > 0) {
+            // Add a click event on each of them
+            $navbarBurgers.forEach( el => {
+               el.addEventListener('click', () => {
+                  // Get the target from the "data-target" attribute
+                  const target = el.dataset.target;
+                  const $target = document.getElementById(target);
+                  // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                  el.classList.toggle('is-active');
+                  $target.classList.toggle('is-active');
+               });
+            });
+         }
+      });
+   </script>       
+</body>
+</html>
